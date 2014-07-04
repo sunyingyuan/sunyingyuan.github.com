@@ -176,6 +176,16 @@
       return false;
    });
 
+/*----------------------------------------------------*/
+/*	weixin qtip
+------------------------------------------------------*/
+
+	 // By suppling no content attribute, the library uses each elements title attribute by default
+	 $('#weixin').qtip({
+		 // Simply use an HTML img tag within the HTML string
+		 content: '<img width="200px" src="images/weixin.png" alt="WeiXin" />'
+	 });
+
 
 });
 
