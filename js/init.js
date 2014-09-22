@@ -186,7 +186,6 @@
 		 content: '<img width="200px" src="images/weixin.png" alt="WeiXin" />'
 	 });
 
-
 });
 
 
