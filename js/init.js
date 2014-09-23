@@ -128,7 +128,7 @@ jQuery(document).ready(function ($) {
 		controlNav: true,
 		directionNav: false,
 		smoothHeight: true,
-		slideshowSpeed: 7000,
+		slideshowSpeed: 10000,
 		animationSpeed: 600,
 		randomize: false
 	});
@@ -188,7 +188,13 @@ jQuery(document).ready(function ($) {
 
 	$('#weixin2').qtip({
 		// Simply use an HTML img tag within the HTML string
-		content: '<img width="200px" src="images/weixin.png" alt="WeiXin" />'
+		content: '<img width="200px" src="images/weixin.png" alt="WeiXin" />',
+		position: {
+			corner: {
+				tooltip: 'bottomMiddle',
+				target: 'topMiddle'
+			}
+		}
 	});
 
 });
